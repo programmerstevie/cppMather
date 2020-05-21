@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+    {
+      "type": "shell",
+      "label": "C/C++: g++.exe build active file",
+      "command": "C:\\MinGW\\bin\\g++",
+      "args": [
+        "-ggdb",
+        "-o",
+        "${workspaceFolder}\\main.exe",
+        "${workspaceFolder}\\main.cpp",
+        "${workspaceFolder}\\lexer.cpp",
+        "${workspaceFolder}\\token.cpp",
+        "${workspaceFolder}\\parser.cpp",
+        "${workspaceFolder}\\evaluator.cpp",
+        "${workspaceFolder}\\grammar.cpp"
+      ],
+      "options": {
+        "cwd": "C:\\MinGW\\bin"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
