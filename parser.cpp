@@ -151,13 +151,13 @@ std::string binOpStr(Operation binOp)
     case SUB:
       return "-";
     case MUL:
-      return "+";
+      return "*";
     case DIV:
-      return "-";
+      return "/";
     case EXP:
-      return "+";
+      return "^";
     case MOD:
-      return "-";
+      return "%";
     case NEG:
       return "(-)";
     default:
